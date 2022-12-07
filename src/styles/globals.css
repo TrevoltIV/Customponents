@@ -1,0 +1,23 @@
+
+
+/* GLOBALS */
+
+/* 
+* Change the values of these variables to customize how your customponents look.
+*/
+
+:root {
+
+/*
+*Header
+*/
+    --headerBackground: blue;
+    --headerOpacity: 1;
+
+/* 
+*Menu
+*/
+    --menuBackground: transparent;
+    --menuOpacity: 1;
+
+}

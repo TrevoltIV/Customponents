@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import './styles/main.css'
+import CHeader from './components/CHeader'
+import CNavMenu from './components/CNavMenu'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className="App">
+        <CHeader size="lg">
+          <CNavMenu size="3xl">
+            <a href="/home">Home</a>
+            <a href="/example1">Example 1</a>
+            <a href="/example2">Example 2</a>
+            <a href="/example3">Example 3</a>
+          </CNavMenu>
+        </CHeader>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

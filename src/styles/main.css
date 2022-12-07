@@ -1,0 +1,118 @@
+@import url("globals.css");
+
+
+* {
+    margin: 0;
+}
+
+/* ERRORS */
+
+.customponents-error-wrapper {
+    background: #fff;
+    color: red;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Roboto";
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+
+
+/* Headers */
+
+.customponents-header {
+    background: var(--headerBackground);
+    opacity: var(--headerOpacity);
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.header-sm {
+    height: 50px;
+}
+
+.header-md {
+    height: 70px;
+}
+
+.header-lg {
+    height: 90px;
+}
+
+.header-xl {
+    height: 120px;
+}
+
+.header-xxl {
+    height: 150px;
+}
+
+.header-3xl {
+    height: 180px;
+}
+
+.header-4xl {
+    height: 225px;
+}
+
+.header-5xl {
+    height: 275px;
+}
+
+.header-6xl {
+    height: 320px;
+}
+
+
+/* Menus */
+
+.customponents-menu {
+    background: var(--menuBackground);
+    opacity: var(--menuOpacity);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customponents-menu-hidden {
+    display: none;
+}
+
+.menu-sm {
+    width: 250px;
+}
+
+.menu-md {
+    width: 300px;
+}
+
+.menu-lg {
+    width: 350px;
+}
+
+.menu-xl {
+    width: 400px;
+}
+
+.menu-xxl {
+    width: 450px;
+}
+
+.menu-3xl {
+    width: 500px;
+}
