@@ -3,6 +3,7 @@
 
 ## A full list of properties (props) can be found below, this is how Customponents determines which style of the component to use.
 
+## Note: this library is still in development
 
 
 ### Available Components:
