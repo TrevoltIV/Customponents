@@ -91,6 +91,51 @@
 }
 
 
+/* Logo */
+
+.logo-left {
+    /* Change this later, pos. absolute will not suffice */
+    position: absolute;
+    left: 10px;
+}
+
+.customponents-logo-sm {
+    width: 75px;
+}
+
+.customponents-logo-md {
+    width: 115px;
+}
+
+.customponents-logo-lg {
+    width: 150px;
+}
+
+.customponents-logo-xl {
+    width: 180px;
+}
+
+.customponents-logo-xxl {
+    width: 225px;
+}
+
+.customponents-logo-3xl {
+    width: 275px;
+}
+
+.customponents-logo-4xl {
+    width: 350px;
+}
+
+.customponents-logo-link {
+    text-decoration: none;
+}
+
+.customponents-logo-img {
+    width: 100%;
+}
+
+
 /* Menus */
 
 .customponents-menu {
