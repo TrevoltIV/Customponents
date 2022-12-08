@@ -1,4 +1,4 @@
-@import url("globals.css");
+@import url("config.css");
 
 
 * {
@@ -28,8 +28,16 @@
 
 .customponents-header {
     background: var(--headerBackground);
+    background-image: var(--headerBackgroundImage);
     opacity: var(--headerOpacity);
     width: 100vw;
+
+    border: var(--headerBorder);
+    border-top: var(--headerBorderTop);
+    border-right: var(--headerBorderRight);
+    border-bottom: var(--headerBorderBottom);
+    border-left: var(--headerBorderLeft);
+    border-radius: var(--headerBorderRadius);
 
     display: flex;
     justify-content: center;
@@ -115,4 +123,16 @@
 
 .menu-3xl {
     width: 500px;
+}
+
+.menu-4xl {
+    width: 600px;
+}
+
+.menu-5xl {
+    width: 700px;
+}
+
+.menu-6xl {
+    width: 800px;
 }
