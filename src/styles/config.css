@@ -35,4 +35,7 @@
     --menuBackground: transparent;
     --menuOpacity: 1;
 
+    /* Buttons */
+    --menuBtnBackground: transparent;
+    --menuBtnTextColor: #fff;
 }

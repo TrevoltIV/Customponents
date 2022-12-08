@@ -37,7 +37,12 @@
     border-right: var(--headerBorderRight);
     border-bottom: var(--headerBorderBottom);
     border-left: var(--headerBorderLeft);
+
     border-radius: var(--headerBorderRadius);
+    border-top-left-radius: var(--headerBorderTopLeftRadius);
+    border-top-right-radius: var(--headerBorderTopRightRadius);
+    border-bottom-left-radius: var(--headerBorderBottomLeftRadius);
+    border-bottom-right-radius: var(--headerBorderBottomRightRadius);
 
     display: flex;
     justify-content: center;
@@ -97,6 +102,10 @@
     align-items: center;
 }
 
+.menu-dropdown {
+    flex-direction: column;
+}
+
 .customponents-menu-hidden {
     display: none;
 }
@@ -135,4 +144,48 @@
 
 .menu-6xl {
     width: 800px;
+}
+
+
+/* Menu Buttons */
+
+.customponents-nav-menu-btn {
+    background: var(--menuBtnBackground);
+    color: var(--menuBtnTextColor);
+
+    border: var(--menuBtnBorder);
+    border-top: var(--menuBtnBorderTop);
+    border-right: var(--menuBtnBorderRight);
+    border-bottom: var(--menuBtnBorderBottom);
+    border-left: var(--menuBtnBorderLeft);
+
+    border-radius: var(--menuBtnBorderRadius);
+    border-top-left-radius: var(--menuBtnBorderTopLeftRadius);
+    border-top-right-radius: var(--menuBtnBorderTopRightRadius);
+    border-bottom-left-radius: var(--menuBtnBorderBottomLeftRadius);
+    border-bottom-right-radius: var(--menuBtnBorderBottomRightRadius);
+
+    outline: var(--menuBtnOutline);
+
+    cursor: pointer;
+    font-size: var(--menuBtnFontSize);
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+.customponents-nav-menu-btn a {
+    color: var(--menuBtnTextColor);
+    text-decoration: var(--menuBtnTextDecoration);
+}
+
+.nav-menu-btn-sm {
+    width: 50rem;
+}
+
+.nav-menu-btn-md {
+    width: 75rem;
+}
+
+.nav-menu-btn-lg {
+    width: 100rem;
 }

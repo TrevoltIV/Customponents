@@ -111,43 +111,43 @@ export default function CNavMenu(props) {
     } else if (props.type == "dropdown") {
         if (props.size == null) {
             return (
-                <div className="customponents-menu menu-md dropdown">
+                <div className="customponents-menu-dropdown menu-md customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "sm") {
             return (
-                <div className="customponents-menu menu-sm dropdown">
+                <div className="customponents-menu-dropdown menu-sm customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "md") {
             return (
-                <div className="customponents-menu menu-md dropdown">
+                <div className="customponents-menu-dropdown menu-md customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "lg") {
             return (
-                <div className="customponents-menu menu-lg dropdown">
+                <div className="customponents-menu-dropdown menu-lg customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "xl") {
             return (
-                <div className="customponents-menu menu-xl dropdown">
+                <div className="customponents-menu-dropdown menu-xl customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "xxl") {
             return (
-                <div className="customponents-menu menu-xxl dropdown">
+                <div className="customponents-menu-dropdown menu-xxl customponents-menu-hidden">
                     {props.children}
                 </div>
             )
         } else if (props.size == "3xl") {
             return (
-                <div className="customponents-menu menu-3xl dropdown">
+                <div className="customponents-menu-dropdown menu-3xl customponents-menu-hidden">
                     {props.children}
                 </div>
             )

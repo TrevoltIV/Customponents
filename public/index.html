@@ -12,6 +12,18 @@
   </head>
   <body>
     <noscript>Please enable javascript to run this app.</noscript>
+    <script>
+      const menuBtn = document.getElementByClassname('customponents-drop-menu-btn');
+      const menu = document.getElementByClassname('customponents-menu-dropdown');
+
+      menuBtn.addEventListener('click', () => {
+        if (menu.classList.contains('customponents-menu-hidden')) {
+          menu.classList.remove('customponents-menu-hidden');
+        } else {
+          menu.classList.add('customponents-menu-hidden');
+        }
+      });
+    </script>
     <div style="
     color: #555;
     margin: 25px 15px 25px 15px;

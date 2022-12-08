@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="App">
         <CHeader size="lg" type="sticky">
-          <CNavMenu size="3xl" type="dropdown">
+          <CNavMenu size="3xl">
             <CNavMenuBtn type="classic" href="/">Home</CNavMenuBtn>
             <CNavMenuBtn type="classic" href="/contact">Contact</CNavMenuBtn>
             <CNavMenuBtn type="classic" href="/careers">Careers</CNavMenuBtn>
