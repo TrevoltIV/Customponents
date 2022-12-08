@@ -26,5 +26,8 @@
  1. Classic Sidebar: < CSidebar />
  2. Collapsible Sidebar: < CCollapseSidebar />
 
+ #### Misc
+ 1. Logo: < CLogo src=(image) alt=(alt) href=(optional clickable logo) size="lg" /> --> Will be a logo of size large
+
 
  #### Note: some of these components are listed here as a "to-do list" and are not available yet.
