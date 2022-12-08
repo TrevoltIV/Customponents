@@ -3,7 +3,8 @@
 
 ## A full list of properties (props) can be found below, this is how Customponents determines the specific details of your component.
 
-## Note: this library is still in development
+## Note: this library is still in development, some components may not work as expected.
+### To install Customponents, currently we do not have an NPM install option, so you will need to copy the directory into your own project.
 
 ### If you would like to contribute to this repository, DM me on discord (Trevolt#5648)
 
@@ -11,16 +12,19 @@
 ### Available Components:
 
  #### Headers (default size is medium, default type is classic)
- Classic Header: < CHeader size="lg" />    --> Will be a classic header of size large
- Sticky Header: < CHeader type="sticky" /> --> Will be a sticky header of size medium
+ 1. Classic Header: < CHeader size="lg" />    --> Will be a classic header of size large
+ 2. Sticky Header: < CHeader type="sticky" /> --> Will be a sticky header of size medium
 
  #### Menus
- Classic Navigation Menu: < CNavMenu />
- Dropdown Navigation Menu: < CNavMenu type="dropdown" />
- Menu List Item (nest within the nav menu): < CNavMenuBtn />
- Classic Dropdown Menu Button: < CDropMenuBtn />
- Burger Dropdown Menu Button: < CDropMenuBtn type="burger" />
+ 1. Classic Navigation Menu: < CNavMenu />
+ 2. Dropdown Navigation Menu: < CNavMenu type="dropdown" />
+ 3. Menu List Item (nest within the nav menu): < CNavMenuBtn />
+ 4. Classic Dropdown Menu Button: < CDropMenuBtn />
+ 5. Burger Dropdown Menu Button: < CDropMenuBtn type="burger" />
 
  #### Sidebars
- Classic Sidebar: <CSidebar />
- Collapsible Sidebar: <CCollapseSidebar />
+ 1. Classic Sidebar: < CSidebar />
+ 2. Collapsible Sidebar: < CCollapseSidebar />
+
+
+ #### Note: some of these components are listed here as a "to-do list" and are not available yet.
