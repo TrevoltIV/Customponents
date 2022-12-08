@@ -15,17 +15,19 @@
     --headerBackgroundImage: none;
     --headerOpacity: 1;
 
+    /* Border */
     --headerBorder: none;
     --headerBorderTop: none;
     --headerBorderRight: none;
     --headerBorderBottom: none;
     --headerBorderLeft: none;
 
+    /* Border Radius */
     --headerBorderRadius: 0;
-    --headerBorderTopRadius: 0;
-    --headerBorderRightRadius: 0;
-    --headerBorderBottomRadius: 0;
-    --headerBorderLeftRadius: 0;
+    --headerBorderTopLeftRadius: 0;
+    --headerBorderTopRightRadius: 0;
+    --headerBorderBottomLeftRadius: 0;
+    --headerBorderBottomRightRadius: 0;
 
 /* 
 *Menu
